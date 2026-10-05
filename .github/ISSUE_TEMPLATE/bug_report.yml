@@ -1,0 +1,28 @@
+name: Bug or incorrect explanation
+description: Report a reproducible app bug, model error, or misleading explanation. 中文亦可。
+title: '[Bug]: '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: Describe the observed behavior and what you expected. 请描述实际结果和预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduce the case
+      description: Include the case, scenario, strategy, scene link, and steps. For downloaded code, give the .mjs filename and terminal output. Use synthetic data only.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser or Node.js version, and app version
+      placeholder: 'Example: Firefox, ReplayFault v0.1.0; or Node.js 22.12.0 for a download'
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or reference
+      description: Screenshots, a minimal counterexample, or a primary source supporting the expected model behavior.

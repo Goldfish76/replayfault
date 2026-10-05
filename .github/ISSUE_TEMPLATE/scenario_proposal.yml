@@ -1,0 +1,30 @@
+name: Propose a scenario
+description: Suggest a small, reproducible async failure with a clear learning outcome. 中文亦可。
+title: '[Scenario]: '
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: Symptom and audience
+      description: What goes wrong, and who would use this case to understand or explain it?
+    validations:
+      required: true
+  - type: textarea
+    id: sequence
+    attributes:
+      label: Minimal event sequence
+      description: List the smallest sequence of events that causes the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: assertion
+    attributes:
+      label: What should the model check?
+      description: Give an assertion that distinguishes correct behavior from the failure, and a possible fix.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Assumptions, limits, and references
+      description: What must the model include? What can it leave out? Link primary sources where possible.
