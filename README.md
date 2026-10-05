@@ -10,7 +10,7 @@ Two cases · eight scenarios and five strategies per case · English and Chinese
 
 [简体中文](README.zh-CN.md) · [Model notes](docs/models.md) · [Contribute](CONTRIBUTING.md)
 
-**Planned demo:** [goldfish76.github.io/replayfault](https://goldfish76.github.io/replayfault/) — deployment is not yet verified.
+**[Play ReplayFault in your browser →](https://goldfish76.github.io/replayfault/)**
 
 ![ReplayFault: replay an async failure and compare repair strategies](docs/replayfault-demo.gif)
 

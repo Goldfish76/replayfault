@@ -10,7 +10,7 @@ ReplayFault 是一个开源的浏览器故障实验室，帮助你理解那些�
 
 [English](README.md) · [模型说明](docs/models.md) · [参与贡献](CONTRIBUTING.md)
 
-**预期演示地址：**[goldfish76.github.io/replayfault](https://goldfish76.github.io/replayfault/) — 尚未验证部署上线。
+**[打开 ReplayFault，直接试玩 →](https://goldfish76.github.io/replayfault/)**
 
 ![ReplayFault：重放异步故障并比较修复策略](docs/replayfault-demo.gif)
 
